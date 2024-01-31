@@ -30,9 +30,9 @@ namespace latihan
         private void btn_Click(object sender, RoutedEventArgs e)
         {
             Button btn = sender as Button;
-            var data = btn.Content.ToString();
+            var data = btn.Content.ToString(); //asdw
 
-            if (textboxhasil.Text.Length == 1 && textboxhasil.Text == "0") // jika length=1 dan textbox adalah 0
+            if (textboxhasil.Text.Length == 1 && textboxhasil.Text == "0") 
             {
                 if (data == ".") //jika tombol yg ditekan adalah "."
                 {
